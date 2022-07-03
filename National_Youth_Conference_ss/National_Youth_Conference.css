@@ -1,7 +1,8 @@
 
+body{margin:15px;}
 
 table, th, td {
-    width:50%;
+    width:70%;
     height:100%;
     color:white;
     text-align:center;
@@ -86,8 +87,6 @@ html {
 .container {
   padding: 0 16px;
 }
-
-
 
 .container::after, .row::after {
   content: "";
