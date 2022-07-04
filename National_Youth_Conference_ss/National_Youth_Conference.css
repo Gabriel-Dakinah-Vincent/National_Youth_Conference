@@ -9,8 +9,8 @@ table, th, td {
     border:1px solid black;
 }
 
-.logm{margin-left:450px;}
-.logm-2{margin-left:275px;}
+.logm{margin-left:200px;}
+.logm-2{margin-left:50px;}
 
 
 .grid-container {
@@ -108,4 +108,3 @@ html {
   }
 
 /* CHARTER CARD */
-
