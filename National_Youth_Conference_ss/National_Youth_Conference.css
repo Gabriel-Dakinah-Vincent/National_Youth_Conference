@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+}
 
 body{margin:15px;}
 
@@ -7,6 +10,7 @@ table, th, td {
     color:white;
     text-align:center;
     border:1px solid black;
+    padding:10px
 }
 
 .logm{margin-left:200px;}
@@ -20,6 +24,7 @@ table, th, td {
   padding: 10px;
   width:4%;
 }
+
 .grid-item-L {
   color:white;
   background-color:green;
@@ -27,7 +32,6 @@ table, th, td {
   margin-right:2px;
   padding: 20px;
   text-align: center;
-
 }
 
 .grid-item-O {
@@ -55,11 +59,8 @@ table, th, td {
   padding: 20px;
   text-align: center;
 }
-/* CHARTER CARD */
 
-html {
-  box-sizing: border-box;
-}
+/* CHARTER CARD */
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -80,8 +81,6 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: black;
-  color:gold;
 }
 
 .container {
@@ -89,22 +88,14 @@ html {
 }
 
 .container::after, .row::after {
-  content: "";
   clear:both;
   display: table;
 }
-
-.title {
-  color:red;
-}
-
 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
-
-
   }
 
 /* CHARTER CARD */
