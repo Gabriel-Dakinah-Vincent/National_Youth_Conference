@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-body{margin:15px;}
+body{margin:4px;}
 
 table, th, td {
     width:70%;
@@ -14,7 +14,7 @@ table, th, td {
 }
 
 .logm{margin-left:200px;}
-.logm-2{margin-left:50px;}
+.logm-2{margin-left:50px; width:85%;}
 
 
 .grid-container {
@@ -68,9 +68,9 @@ table, th, td {
 }
 
 .column {
-  float: left;
+  float:left;
   width: 33%;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   padding:4px;
 }
 
@@ -90,13 +90,11 @@ table, th, td {
 
 .container::after, .row::after {
   clear:both;
-  display: table;
+  display:table;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .column {
-    width: 100%;
-    display: block;
+    width:100%;
+    display:block;
   }
-
-/* CHARTER CARD */
